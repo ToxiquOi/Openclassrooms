@@ -1,0 +1,130 @@
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.pokebip.com/membres/galeries/1499/1499864423000762800.png");
+    height: 400px;
+}
+
+
+#menu
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-top: 3px groove white;
+    border-bottom: 3px groove white;
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    height: 50px;
+    font-size: 2em;
+    color: white;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown i 
+{
+    margin-top: 1%;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(75, 75, 75, 1);
+    border: 1px solid black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(50, 50, 50, 0.2);
+    padding: 12px 16px;
+    margin: center;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+#block_page
+{
+    display: flex;
+    justify-content: center;
+    background: url("https://img00.deviantart.net/8ad1/i/2014/179/c/c/shiny_pokemon_wallpaper_by_supernovash-d7ob0wu.jpg");
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    width: 80%;
+    font-size: 1.1em;
+    color: white;
+}
+
+th
+{
+    font-size: 1.2em;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+img
+{
+    height: 100px;
+}
+
+#logo img
+{
+    height: 300px;
+}
+
+#Acceuil
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    text-align: center;
+    height: 600px;
+}
+
+#Acceuil img
+{
+    margin: auto;
+    height: 420px;
+    width: 980px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 3px groove white;
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+
+footer p
+{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
